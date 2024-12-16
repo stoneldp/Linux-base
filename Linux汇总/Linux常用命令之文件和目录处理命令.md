@@ -39,4 +39,4 @@
       - 6、`1.3K`:表示文件字节大小，不带单位表示字节。
       - 7、`Mar 11 08:05`:表示文件的最后修改时间。注意：Linux没有明确创建时间，只有最后一次访问时间，文件修改时间，文件的数据修改时间。
       - 8、`anaconda-ks.cfg`表示文件名。
-      - 
+      - ![](https://github.com/stoneldp/Linux-base/blob/master/photo/%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90.png)
