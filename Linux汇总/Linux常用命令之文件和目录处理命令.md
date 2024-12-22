@@ -80,4 +80,34 @@
 #### 五、显示当前目录命令：`pwd`
 - 1、命令名称：`pwd`
 - 2、英文原意：`print working directory`
-- 3、
+- 3、命令所在路径：`/bin/pwd`
+- 4、执行权限：所有用户
+- 5、功能描述：显示当前目录
+- 6、语法：`pwd`
+  - 如:显示当前目录：`pwd`
+#### 六、删除空目录命令：`mkdir`
+- 1、命令名称：`rmdir`
+- 2、英文意愿：`remove empty directories`
+- 3、命令所在路径：`/bin/emddir`
+- 4、执行权限：所有用户
+- 5、功能描述：删除空目录（如果目录下存在文件则不能删除）
+- 6、语法：`rmdir 【空目录名】
+  - 如：删除指定空目录：`rmdir /temp/a`
+  - ![](https://github.com/stoneldp/Linux-base/blob/master/photo/rmdir%E5%92%8Cmkdir.png)
+  - 注：此命令只能删除空目录，由此在实际操作中使用不多。后面讲解的`rm`命令可代替。
+#### 七、复制文件或目录命令：`cp`
+- 1、命令名称：`cp`
+- 2、英文原意:`copy`
+- 3、命令所在路径：`/bin/cp`
+- 4、执行权限：所有用户
+- 5、功能描述：复制文件或目录
+- 6、语法：`cp -rp 【原文件或目录】 【目标目录】
+  - `-r`复制目录
+  - `-p`保留文件属性
+  - 如：1、比如将`root`目录下的`install.log`文件复制到`tmp`目录下
+    - ![](https://github.com/stoneldp/Linux-base/blob/master/photo/cp.png)
+  - 2、**可以用于复制后文件改名**，将`root`下的`install.log`文件复制到`tmp`后改名为`copyinstall.log`
+  - ![]()
+  - 还可以同时复制多个文件，复制目录时需加`-r`选项。
+  - 加`-p`选项，会将原文件的一些属性原封不动的复制过去，如:修改时间。如果不加`-p`,那么复制过去的文件修改时间为当前系统时间。
+  - 
